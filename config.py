@@ -5,33 +5,33 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5914330860:AAF3FAJKOJlXG85zMs6XKfH6ifEx6efdShw")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1912233708:AAHLpkitj3fmDplit-rMa7uPkCrA84_xF1s")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "27256386"))
+APP_ID = int(os.environ.get("APP_ID", "7120601"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "f39e321f1892ac1bd151e2c0904e1f0d")
+API_HASH = os.environ.get("API_HASH", "aebd45c2c14b36c2c91dec3cf5e8ee9a")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001868607221"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001448249578"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5005666003"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "784985038"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Liamcuy")
+OWNER = os.environ.get("OWNER", "akuiiki")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "postgres://npshqryw:qB36Hl2d64csE9t2-GpFPeu03XPICiLA@hansken.db.elephantsql.com/npshqryw")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "tboxindo")
-GROUP = os.environ.get("GROUP", "teraboxindo")
+CHANNEL = os.environ.get("CHANNEL", "downloadanimebatch")
+GROUP = os.environ.get("GROUP", "otakuindonew")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001888226123"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001948516465"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001546083133"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001519273319"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
