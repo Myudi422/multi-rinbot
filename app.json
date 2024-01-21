@@ -21,10 +21,10 @@
       "url": "heroku/python"
     }
   ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
+"formation": {
+  "worker": {
+    "quantity": 1,
+    "size": "standard-1x"  // Change this to the desired paid dyno size
   }
+}
 }
