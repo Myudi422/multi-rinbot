@@ -24,7 +24,7 @@
 "formation": {
   "worker": {
     "quantity": 1,
-    "size": "standard-1x"  // Change this to the desired paid dyno size
+    "size": "standard-1x"
   }
 }
 }
